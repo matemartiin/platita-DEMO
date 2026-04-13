@@ -34,7 +34,7 @@ La app combina un dashboard interactivo con graficos en tiempo real, un sistema 
 
 ### Login
 
-Pantalla de ingreso con diseno glassmorphism y tema oscuro. Soporta creacion automatica de cuenta y codigos de invitacion para el sistema de amigos.
+Pantalla de ingreso con diseno minimalista y tema claro. Soporta creacion automatica de cuenta y codigos de invitacion para el sistema de amigos.
 
 ![Login](screenshots/01-login.png)
 
@@ -134,14 +134,14 @@ Potenciado por GPT-4o-mini con clasificacion de intents, inyeccion de contexto f
 
 ---
 
-### Configuracion — WhatsApp Bot
+### Integraciones
 
-Vinculacion del bot de WhatsApp para registrar gastos de forma conversacional:
-- **Texto** — "Gaste $3000 en el super"
-- **Foto** — Envia una foto del ticket y se extrae automaticamente (OCR con GPT-4o)
-- **Audio** — Graba un mensaje de voz y se transcribe con Whisper
+Gestion de cuentas bancarias y billeteras digitales vinculadas:
+- **Cuentas** — Mercado Pago, cuentas bancarias, billeteras
+- **WhatsApp Bot** — Registra gastos por texto, foto de ticket (OCR con GPT-4o) o audio (Whisper)
+- **Google Calendar** — Sincronizacion de eventos financieros
 
-![WhatsApp Bot](screenshots/10-configuracion-whatsapp.png)
+![Integraciones](screenshots/10-configuracion-whatsapp.png)
 
 ---
 
